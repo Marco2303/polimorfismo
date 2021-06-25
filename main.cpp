@@ -24,6 +24,8 @@ int main()
     automobile &newauto = *a1;
     funcgenericaref(newauto);
 
+    funcgenericaref(*a1);
+
 
     //automobile *autom = new automobile();
     automobile *autom;
