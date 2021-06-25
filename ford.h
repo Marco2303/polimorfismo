@@ -7,6 +7,7 @@ class ford : public automobile
 {
 public:
     ford();
+    ~ford() override;
     std::string valutazione() override;
 };
 

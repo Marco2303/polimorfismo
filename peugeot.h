@@ -7,6 +7,7 @@ class peugeot : public automobile
 {
 public:
     peugeot();
+    ~peugeot() override;
     std::string valutazione() override;
 
 };

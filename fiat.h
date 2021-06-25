@@ -8,6 +8,7 @@ class fiat : public automobile
 {
 public:
     fiat();
+    ~fiat() override;
     std::string valutazione() override;
 };
 

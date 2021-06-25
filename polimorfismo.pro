@@ -9,6 +9,7 @@ SOURCES += \
         fiat.cpp \
         ford.cpp \
         main.cpp \
+        panda.cpp \
         peugeot.cpp
 
 HEADERS += \
@@ -16,4 +17,5 @@ HEADERS += \
     f500.h \
     fiat.h \
     ford.h \
+    panda.h \
     peugeot.h

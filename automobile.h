@@ -13,7 +13,7 @@ class automobile
 {
 public:
     automobile();
-    ~automobile();
+    virtual ~automobile();
     automobile(std::string,std::string,int);
     std::string virtual valutazione() = 0;
 };
