@@ -5,6 +5,7 @@ CONFIG -= qt
 
 SOURCES += \
         automobile.cpp \
+        f500.cpp \
         fiat.cpp \
         ford.cpp \
         main.cpp \
@@ -12,6 +13,7 @@ SOURCES += \
 
 HEADERS += \
     automobile.h \
+    f500.h \
     fiat.h \
     ford.h \
     peugeot.h

@@ -20,6 +20,6 @@ automobile::automobile(std::string alimentazione, std::string cambio, int volumi
 
 std::string automobile::valutazione(){
 
-    std::cout << "Valutazione automobile\n";
+    return "Valutazione automobile\n";
 
 }

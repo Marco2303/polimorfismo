@@ -15,7 +15,7 @@ public:
     automobile();
     ~automobile();
     automobile(std::string,std::string,int);
-    std::string virtual valutazione();
+    std::string virtual valutazione() = 0;
 };
 
 #endif // AUTOMOBILE_H
